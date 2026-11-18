@@ -90,12 +90,6 @@ Found a useful free developer tool? Contributions are welcome!
 
 Please don't submit trial-only or paid-only products. When free status is unclear, open an issue for review rather than guessing.
 
-## 📚 Sources & attribution
-
-FMHY's [Developer Tools directory](https://fmhy.net/developer-tools) was used as an initial discovery source for candidate projects.
-
-This repository is independently curated and is **not affiliated with or endorsed by FMHY**. Tool names and links direct readers to their respective providers or project owners. Descriptions here are original summaries, not copied FMHY descriptions. See [SOURCES.md](SOURCES.md) for the attribution and verification policy.
-
 ## ⚠️ Disclaimer
 
 This is a community-maintained resource list, not a guarantee of availability, security, suitability, or continued free access. Always review the official provider's pricing, terms, documentation, and license. Inclusion does not imply endorsement.
