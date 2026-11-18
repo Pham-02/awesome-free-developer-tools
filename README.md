@@ -44,13 +44,6 @@ Contributions are welcome! Before submitting a tool:
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Sources and attribution
-
-This directory was researched with **FMHY's Developer Tools directory** as an initial discovery source:
-- https://fmhy.net/developer-tools
-
-FMHY is not the author or maintainer of this repository. Tool names and links point to their respective providers or project owners. Descriptions in this repository are independently written summaries. Please consult the original providers for authoritative feature, pricing, and license information.
-
 ## Disclaimer
 
 This is an independent, community-maintained resource list. Inclusion does not imply endorsement. Pricing and availability can change without notice.
