@@ -1,0 +1,17 @@
+
+# Link-checker configuration for Lychee.
+# External websites may temporarily block automated checks.
+
+exclude = [
+  "https://localhost",
+  "http://localhost",
+  "https://127.0.0.1",
+  "http://127.0.0.1",
+]
+
+exclude_mail = true
+timeout = 20
+max_retries = 2
+retry_wait_time = 2
+user_agent = "Mozilla/5.0 (compatible; AwesomeFreeDeveloperToolsLinkChecker/1.0)"
+accept = ["200..=299", "301", "302", "303", "307", "308", "429"]
