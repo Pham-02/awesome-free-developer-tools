@@ -1,0 +1,58 @@
+name: Monthly free-plan review reminder
+
+on:
+  schedule:
+    - cron: "0 9 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  create-review-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create monthly review issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `Monthly free-plan and license review — ${new Date().toISOString().slice(0, 7)}`;
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100
+            });
+
+            if (existing.data.some(issue => issue.title === title)) {
+              core.info("This month's review issue already exists.");
+              return;
+            }
+
+            const body = [
+              "## Monthly directory review",
+              "",
+              "Please review a portion of the listed tools and confirm that their free status and licensing are still accurate.",
+              "",
+              "### Review checklist",
+              "- [ ] Check whether the service still has a permanent free tier or is genuinely free.",
+              "- [ ] Exclude time-limited trials and paid-only products.",
+              "- [ ] Recheck usage caps, account requirements, and commercial-use restrictions.",
+              "- [ ] Confirm open-source licenses from the official repository or license page.",
+              "- [ ] Update descriptions and labels where necessary.",
+              "- [ ] Remove or flag tools whose free offering has ended.",
+              "- [ ] Check links reported by the scheduled link checker.",
+              "",
+              "A working URL does not prove a service is free. Verify pricing and licensing from the provider's own documentation.",
+              "",
+              "Discovery/source context: [FMHY Developer Tools](https://fmhy.net/developer-tools)."
+            ].join("\n");
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ["maintenance", "review"]
+            });
