@@ -147,6 +147,7 @@ Whether you're a beginner, student, hobbyist, or professional developer, you'll 
 
 | Tool | Description | Type |
 |---|---|---|
+| [BestJSON](https://bestjson.com/) | Format, validate, repair, compare and query JSON locally in the browser | 🟢 Free |
 | [DevToys](https://devtoys.app/) | Collection of developer utilities | 🔓 Open Source |
 | [CyberChef](https://gchq.github.io/CyberChef/) | Data encoding, decoding, and transformation | 🔓 Open Source |
 | [JSON Crack](https://jsoncrack.com/) | Visualize JSON and other data structures | ☁️ Free Tier |
