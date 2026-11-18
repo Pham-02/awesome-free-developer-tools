@@ -1,6 +1,6 @@
 # Review notes
 
-This is a first-pass, manually curated selection based on FMHY's Developer Tools directory and general knowledge of the named projects.
+This is a first-pass, manually curated selection based Developer Tools directory and general knowledge of the named projects.
 
 Before treating the list as fully verified:
 - Re-check all hosted free-tier quotas and eligibility restrictions.
