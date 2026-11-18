@@ -1,0 +1,56 @@
+name: Suggest or review a tool
+description: Submit a free developer tool or report a change to an existing listing.
+title: "[Tool review]: "
+labels: ["tool-submission", "needs-review"]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Tool name
+      placeholder: Example Tool
+    validations:
+      required: true
+  - type: input
+    id: official_url
+    attributes:
+      label: Official website or repository
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: free_type
+    attributes:
+      label: What makes it eligible?
+      options:
+        - Open-source software
+        - Permanent free tier
+        - Completely free service
+        - Unsure — needs maintainer review
+    validations:
+      required: true
+  - type: input
+    id: pricing_url
+    attributes:
+      label: Pricing or license URL
+      description: Link to the provider's pricing page or project's license.
+      placeholder: https://example.com/pricing
+  - type: textarea
+    id: limits
+    attributes:
+      label: Free-plan limits and requirements
+      description: Mention account requirements, quotas, usage caps, self-hosting, or commercial-use restrictions.
+  - type: textarea
+    id: description
+    attributes:
+      label: Your original short description
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I checked that this is not merely a time-limited free trial.
+          required: true
+        - label: I used official sources and wrote an original description.
+          required: true
