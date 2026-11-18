@@ -1,0 +1,27 @@
+# Web Development & Frontend
+
+- [Can I Use](https://caniuse.com/) — Checks browser support for web platform features. `Free service`
+- [MDN Web Docs](https://developer.mozilla.org/) — Reference documentation for web standards and browser APIs. `Free service`
+- [HTML Reference](https://htmlreference.io/) — Visual reference for common HTML elements. `Free service`
+- [CSS Reference](https://cssreference.io/) — Visual guide to CSS properties and behavior. `Free service`
+- [Easings](https://easings.net/) — Reference gallery for easing curves used in animation. `Free service`
+- [Animista](https://animista.net/) — Generates customizable CSS animations. `Free service`
+- [CSS Doodle](https://css-doodle.com/) — Creates decorative patterns using CSS-like rules. `Open source`
+- [UnoCSS](https://unocss.dev/) — On-demand atomic CSS engine. `Open source`
+- [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS framework. `Open source`
+- [daisyUI](https://daisyui.com/) — Component classes built on top of Tailwind CSS. `Open source`
+- [Flowbite](https://flowbite.com/) — UI components built for Tailwind CSS; check any commercial offerings separately. `Open source`
+- [Radix UI](https://www.radix-ui.com/) — Accessible, unstyled UI primitives. `Open source`
+- [Mantine](https://mantine.dev/) — React component library and hooks. `Open source`
+- [React Bits](https://reactbits.dev/) — Collection of copy-ready React UI components and effects. `Free service`
+- [shadcn/ui](https://ui.shadcn.com/) — Reusable component source designed to be copied into projects. `Open source`
+- [Astro](https://astro.build/) — Web framework for content-focused websites. `Open source`
+- [Eleventy](https://www.11ty.dev/) — Flexible static-site generator. `Open source`
+- [Hugo](https://gohugo.io/) — Fast static-site generator. `Open source`
+- [Jekyll](https://jekyllrb.com/) — Static-site generator often used with GitHub Pages. `Open source`
+- [Docusaurus](https://docusaurus.io/) — Documentation website generator. `Open source`
+- [VitePress](https://vitepress.dev/) — Static site generator powered by Vite and Vue. `Open source`
+- [WordPress](https://wordpress.org/) — Open-source content management system. `Open source`
+- [Playwright](https://playwright.dev/) — Browser automation and end-to-end testing framework. `Open source`
+- [Selenium](https://www.selenium.dev/) — Browser automation project for testing web applications. `Open source`
+- [Automa](https://www.automa.site/) — Browser extension for building no-code browser workflows. `Open source`
